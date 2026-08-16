@@ -81,9 +81,9 @@ WSGI_APPLICATION = "es.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "event_scheduler_db",
-        "USER": "postgres",
-        "PASSWORD": "postgre-shahzain",
+        "NAME": "YOUR_DB_NAME",
+        "USER": "YOUR_USER_NAME",
+        "PASSWORD": "YOUR_PASSWORD",
         "HOST": "localhost",
         "PORT": "5432",
     }
